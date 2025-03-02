@@ -11,12 +11,12 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 ### Step 4: End the program
 
 ## Program:
-#Program to find the eigen values and eigen vectors.
-#Developed by: K pavithra
-#RegisterNumber:212224240112
-import numpy as np
-a=np.array([[4,2],[2,4]])
-value,vector=np.linalg.eig(a)
+#Program to find the eigen values and eigen vectors.    
+#Developed by: K pavithra   
+#RegisterNumber:212224240112   
+import numpy as np   
+a=np.array([[4,2],[2,4]])    
+value,vector=np.linalg.eig(a)  
 print("Eigen values are",value,"and","Eigen Vectors are",vector)
 ## Output:
 ![Screenshot 2025-03-02 150428](https://github.com/user-attachments/assets/92c6a3d0-556a-4fa5-8884-a296783a6497)
